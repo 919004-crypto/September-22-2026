@@ -9,8 +9,8 @@ def topwin():
     top.geometry("400x300")
     top.title("toplevel")
 
-    12 = Label(top, text="This is toplevel window")
-    12.pack()
+    l2 = Label(top, text="This is toplevel window")
+    l2.pack()
 
     top.mainloop
 
